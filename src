@@ -1,8 +1,0 @@
-<script>start("/Users/sukku/Documents/sukesh/Code/shoppin/src/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("__pycache__","__pycache__",1,192,"192 B",1739007485,"08/02/2025, 15:08:05");</script>
-<script>addRow(".env",".env",0,30,"30 B",1739009915,"08/02/2025, 15:48:35");</script>
-<script>addRow("Agent.py","Agent.py",0,2320,"2.3 kB",1739007146,"08/02/2025, 15:02:26");</script>
-<script>addRow("prompt.py","prompt.py",0,3766,"3.7 kB",1739002871,"08/02/2025, 13:51:11");</script>
-<script>addRow("template.py","template.py",0,488,"488 B",1738958491,"08/02/2025, 01:31:31");</script>
-<script>addRow("Tool.py","Tool.py",0,22466,"21.9 kB",1739007478,"08/02/2025, 15:07:58");</script>
