@@ -76,16 +76,12 @@ Once the Streamlit UI is live, the user can submit a query. The process follows 
 
 ## Future Development
 
-- **Filter Enhancements:** Improve the functionality of filters (e.g., size, color) on platforms like Amazon.
-- **Coupon Validation:** Integrate a reliable API for coupon validation to replace the current random acceptance/rejection logic.
-- **Shipping Information:** Incorporate accurate shipping data for platforms such as Walmart.
-- **Return Policy:** Develop methods to fetch and filter products based on real return policy information.
-- **Price Comparison:** Enhance the price comparison tool to provide more detailed insights across platforms.
+- **Coupon Validation:** Integrate a reliable API for check realtime coupon validation to replace the current random acceptance/rejection logic.
 - **In-House Model:** Since this repository depends on OpenAI models, in the future, I can fine-tune the open-sourced model using the reasoning traces from large models such as GPT-4o by applying ReSET training logic iteratively with synthetic data.
-- **Observation:**  
-  Currently, the code follows only a "Reasoning → Actions" flow. In the future, add an Observation phase that combines the agent's action output with its reasoning to return a final response.  
-  *(I started this project in the last time, so I did not have time to add an Observation phase.)*
+- **Crawler & RAG for E-commerce  :** This flow retrieves product information directly from platforms like Amazon and Walmart via APIs, limiting search efficiency, scalability, and inference. To address this, we need to develop an e-commerce crawler that scrapes product data across platforms and stores it in a scalable vector database. The database should include both visual (product images) and textual (product names) embeddings, enabling product searches using either product details or titles.
 
+## Future Architecture
+![Flow Diagram](Future_Flow.png)
 ## Setup Details
 
 Follow these steps to set up the project on your instance:
